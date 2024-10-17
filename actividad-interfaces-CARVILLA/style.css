@@ -1,64 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-   font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
 
-/* .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
+.container_img_coche {
 
-    position: fixed;
-    top: 0;
-    width: 100%;
+  background-image: url(/img/img_coche_portada.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 95vh;
+
 
 }
-
-
-
-  li a {
-    display: block;
-    color: rgb(230, 14, 14);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-
-a::after{
-    color: rgb(118, 57, 216);
-} */
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-  }
-  
-  li {
-    float: right;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
 
-  #logo {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: rgb(184, 18, 18);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
+li {
+  float: right;
+}
+
+#logo {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.super_container_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_title {
+  margin-top: 12%;
+  text-align: center;
+  max-width: 60%;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.container_subtitle {
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  color: white;
+}
+
+.btn_contact {
+  background-color: rgb(68, 57, 216);
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 2px;
+}
