@@ -33,7 +33,12 @@ main {
   top: 0;
 }
 
-
+/* .container_nav {
+  position:fixed;
+  width: 100%;
+}
+ */
+ 
 ul {
   list-style-type: none;
   margin: 0;
