@@ -109,12 +109,12 @@ li a {
   background-color: white;
   width: 70%;
   box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  
+
 }
 
 
@@ -134,4 +134,67 @@ select {
   margin-bottom: 15px;
   margin-top: 15px;
   background-color: rgb(243, 243, 243);
+}
+
+.container_car {
+  margin-top: 250px;
+  margin-left: 250px;
+  margin-right: 250px;
+  display: flex;
+
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+
+  justify-content: center;
+
+
+}
+
+.largest_car {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid rgba(77, 76, 76, 0.205);
+  padding: 30px;
+  height: 200px;
+  border-radius: 3px;
+}
+
+.unlimited_repair {
+  max-width: 285px;
+  border: 1px solid rgba(77, 76, 76, 0.205);
+  border-radius: 3px;
+  padding: 25px;
+  height: 200px;
+}
+
+.insurence_suport {
+  width: 300px;
+  border: 1px solid rgba(77, 76, 76, 0.205);
+  border-radius: 3px;
+  padding: 25px;
+  height: 200px;
+  border-radius: 3px;
+}
+
+.car1_img {
+  background-image: url(../img/icon_cars/img_car1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+
+.car2_img {
+  background-image: url(../img/icon_cars/img_car2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+.car3_img {
+  background-image: url(../img/icon_cars/img_car3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
 }
