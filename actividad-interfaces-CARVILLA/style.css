@@ -198,3 +198,18 @@ select {
   background-repeat: no-repeat;
   height: 100px;
 }
+
+.container_newest_cars{
+  background-color: rgba(68, 57, 216, 0.058);
+
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newest_car_img{
+  background-image: url(../img/new-cars-model/ncm3.png);
+}
