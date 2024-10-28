@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+  color: rgb(89, 89, 89);
 }
 
 main {
@@ -13,15 +14,12 @@ main {
 }
 
 .container_img_coche {
-
   background-image: url(/img/welcome-banner.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   height: 95vh;
-
-
 }
 
 .sombra {
@@ -85,7 +83,6 @@ li a {
 .container_subtitle {
   padding-left: 15%;
   padding-right: 15%;
-
 }
 
 .subtitle {
@@ -114,11 +111,9 @@ li a {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-
 }
 
-
-.btn_search {
+button {
   background-color: rgb(68, 57, 216);
   color: white;
   padding: 15px 30px;
@@ -147,19 +142,39 @@ select {
   align-items: center;
 
   justify-content: center;
+}
 
+hr {
+  height: 2px;
+  background-color: rgb(68, 57, 216);
+  border: none;
+  max-width: 100px;
 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-car_icon hr{
+  max-width: 30px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.title_h4_car {
+  margin-bottom: 20px;
 }
 
 .container-car_icon {
-  max-width: 200px;
+  max-width: 250px;
   border: 1px solid rgba(77, 76, 76, 0.205);
   padding: 35px;
   min-height: 250px;
   max-height: 250px;
   border-radius: 3px;
+  text-align: center;
 }
-
 
 .car1_img {
   background-image: url(../img/icon_cars/img_car1.png);
@@ -167,7 +182,6 @@ select {
   background-repeat: no-repeat;
   height: 100px;
 }
-
 
 .car2_img {
   background-image: url(../img/icon_cars/img_car2.png);
@@ -183,8 +197,8 @@ select {
   height: 100px;
 }
 
-.container_newest_cars{
-  background-color: rgba(68, 57, 216, 0.058);
+.container_newest_cars {
+  background-color: rgba(101, 98, 141, 0.058);
 
   margin-top: 100px;
 
@@ -192,8 +206,125 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  padding-bottom: 70px;
 }
 
-.newest_car_img{
+.newest_cars_title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.title_h4 {
+  font-size: 35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.newest_car_img_description {
+  display: flex;
+  height: 40vh;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.newest_car_img {
+  flex: 1;
   background-image: url(../img/new-cars-model/ncm3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 30vh;
+}
+
+.description_newest_car {
+  flex: 1;
+}
+
+.description_newest_car_h4 {
+  font-size: 20px;
+}
+
+.description_newest_car_p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.featured_cars_container {
+
+  padding-top: 20px;
+
+
+}
+
+
+.featured_cars_title {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+
+.featured_cars_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 0.35fr));
+  justify-content: center;
+  align-items: center; 
+  justify-items: center;
+  margin-left: 200px;
+  gap: 2px; 
+  
+  margin-bottom: 2%;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+.newest_cars_title p{
+  text-align: center;
+}
+
+.featured_cars_title p{
+  text-align: center;
+}
+
+.featured_box_img{
+  background-image: url(../img/featured-cars/fc1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 10vh;
+  width: 20vh;
+
+
+}
+
+.featured_cars{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+
+}
+
+.featured_box{
+  border: 1px solid rgba(77, 76, 76, 0.205);
+  padding: 35px;
+  min-height: 100px;
+  max-height: 250px;
+  border-radius: 3px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
 }
