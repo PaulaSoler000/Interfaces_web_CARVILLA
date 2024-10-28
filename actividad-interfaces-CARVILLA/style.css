@@ -107,7 +107,7 @@ li a {
   top: 80%;
   height: 300px;
   background-color: white;
-  width: 70%;
+  width: 60%;
   box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   display: flex;
@@ -151,31 +151,15 @@ select {
 
 }
 
-.largest_car {
-  width: 300px;
-  padding: 5px;
+.container-car_icon {
+  max-width: 200px;
   border: 1px solid rgba(77, 76, 76, 0.205);
-  padding: 30px;
-  height: 200px;
+  padding: 35px;
+  min-height: 250px;
+  max-height: 250px;
   border-radius: 3px;
 }
 
-.unlimited_repair {
-  max-width: 285px;
-  border: 1px solid rgba(77, 76, 76, 0.205);
-  border-radius: 3px;
-  padding: 25px;
-  height: 200px;
-}
-
-.insurence_suport {
-  width: 300px;
-  border: 1px solid rgba(77, 76, 76, 0.205);
-  border-radius: 3px;
-  padding: 25px;
-  height: 200px;
-  border-radius: 3px;
-}
 
 .car1_img {
   background-image: url(../img/icon_cars/img_car1.png);
