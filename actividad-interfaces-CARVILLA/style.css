@@ -13,6 +13,8 @@ main {
   justify-content: center;
 }
 
+/* header */
+
 .container_img_coche {
   background-image: url(/img/welcome-banner.jpg);
   background-size: cover;
@@ -98,6 +100,8 @@ li a {
   border-radius: 2px;
 }
 
+/* contenedor flotante */
+
 .container_flotante {
   position: absolute;
   z-index: 5;
@@ -130,6 +134,8 @@ select {
   margin-top: 15px;
   background-color: rgb(243, 243, 243);
 }
+
+/* contenedor icons */
 
 .container_car {
   margin-top: 250px;
@@ -197,6 +203,9 @@ hr {
   height: 100px;
 }
 
+
+/* newest cars */
+
 .container_newest_cars {
   background-color: rgba(101, 98, 141, 0.058);
 
@@ -236,11 +245,13 @@ hr {
 .newest_car_img {
   flex: 1;
   background-image: url(../img/new-cars-model/ncm3.png);
-  background-size: cover;
+
   background-position: center;
   background-repeat: no-repeat;
-  position: relative;
-  height: 30vh;
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+
 }
 
 .description_newest_car {
@@ -256,6 +267,8 @@ hr {
   margin-bottom: 30px;
 }
 
+
+/* featured cars */
 
 .featured_cars_container {
 
@@ -275,16 +288,16 @@ hr {
 
 .featured_cars_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 0.35fr));
+  grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center; 
   justify-items: center;
-  margin-left: 30vh;
   gap: 2px; 
+
   
   margin-bottom: 2%;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 400px;
+  padding-right: 400px;
 
 }
 
@@ -296,17 +309,25 @@ hr {
   text-align: center;
 }
 
+img{
+  max-width: 100%;
+}
+
 .featured_box_img{
-  background-image: url(../img/featured-cars/fc1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  height: 10vh;
+  height: 11vh;
   width: 20vh;
-
-
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-size: 100%;
+  
 }
+
 
 .featured_cars{
   display: flex;
@@ -315,16 +336,26 @@ hr {
 
 }
 
-.featured_box{
+/* .featured_box{
   border: 1px solid rgba(77, 76, 76, 0.205);
   padding: 35px;
-  min-height: 100px;
-  max-height: 250px;
+  min-height: 150px; 
   border-radius: 3px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 200px;
+  min-width: 180px;
+} */
+
+
+table, td{
+  border: 1px solid rgba(77, 76, 76, 0.205);
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+td{
+  padding: 10px;
 }
