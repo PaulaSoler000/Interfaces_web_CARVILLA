@@ -182,26 +182,13 @@ hr {
   text-align: center;
 }
 
-.car1_img {
-  background-image: url(../img/icon_cars/img_car1.png);
+.car_img {
+
   background-position: center;
   background-repeat: no-repeat;
   height: 100px;
 }
 
-.car2_img {
-  background-image: url(../img/icon_cars/img_car2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100px;
-}
-
-.car3_img {
-  background-image: url(../img/icon_cars/img_car3.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100px;
-}
 
 
 /* newest cars */
