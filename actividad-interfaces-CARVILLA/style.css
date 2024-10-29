@@ -252,8 +252,17 @@ hr {
 .description_newest_car_p {
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-right: 200px;
 }
 
+
+.newest_cars_title p{
+  text-align: center;
+}
+
+.featured_cars_title p{
+  text-align: center;
+}
 
 /* featured cars */
 
@@ -288,13 +297,6 @@ hr {
 
 }
 
-.newest_cars_title p{
-  text-align: center;
-}
-
-.featured_cars_title p{
-  text-align: center;
-}
 
 img{
   max-width: 100%;
@@ -346,3 +348,47 @@ table, td{
 td{
   padding: 10px;
 }
+
+.featured_description{
+  margin-bottom: 40px;
+}
+
+
+/* what client says */
+
+.what_our_clients_say_container{
+  background-color: rgba(101, 98, 141, 0.058);
+
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.what_our_clients_say_grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center; 
+  justify-items: center;
+  gap: 20px; 
+
+  
+  margin-bottom: 2%;
+  margin-top: 50px;
+}
+
+.what_our_clients_say{
+  border: 1px solid rgba(77, 76, 76, 0.205);
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  text-align: center;
+  padding: 25px;
+}
+
