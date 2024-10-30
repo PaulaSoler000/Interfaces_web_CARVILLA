@@ -304,8 +304,34 @@ hr {
 
 @media screen and (max-width: 700px) {
 
-  .container_newest_cars{
+  .container_newest_cars {
+    height: auto;
+  }
 
+  .newest_car_img_description{
+    display: block;
+    height: auto;
+    width: auto;
+  }
+
+  .newest_car_img {
+    flex: 1;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  
+    height: 40vh;
+    width: 60vh;
+    background-size: 90%;
+  
+  }
+
+  .description_newest_car_p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-right: 5px;
   }
   
 }
@@ -400,6 +426,43 @@ td {
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 700px) {
+
+  .featured_cars_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 2px;
+    
+    margin-bottom: 2%;
+    padding-left: 1px;
+    padding-right: 1px;
+  
+  }
+
+  .featured_box_img {
+    height: 11vh;
+    width: 30vh;
+
+  }
+  .featured_cars{
+    max-width: 80%;
+  }
+
+  table{
+    max-width: 100%;
+  }
+
+  .featured_description {
+    width: 80%;
+  }
+
+
+  
+}
+
 
 /* what client says */
 
@@ -456,6 +519,16 @@ td {
 }
 
 
+@media screen and (max-width: 700px) {
+  .what_our_clients_say_grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+}
+
+
 /* brand */
 
 .brands_container {
@@ -467,6 +540,22 @@ td {
   margin-bottom: 90px;
   gap: 60px;
   height: auto;
+}
+
+@media screen and (max-width: 700px) {
+
+  .brands_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    gap: 60px;
+    height: auto;
+
+  }
+  
 }
 
 /* footer */
@@ -544,16 +633,24 @@ footer {
   color: rgb(182, 182, 210);
 }
 
+@media screen and (max-width: 700px) {
 
+  .footer_container {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 60px;
+    margin-left: 20px;
+    margin-right: 50px;
 
-.super_container_flex table {
-  margin-left: 100px;
-  margin-right: 100px;
+  }
+
+  .social_media_container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
 }
 
-
-.table_footer td {
-  width: 100%;
-  max-width: 100px;
-
-}
