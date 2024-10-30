@@ -446,9 +446,9 @@ footer{
   margin-right: 100px;
 }
 
-.footer h5{
+/* .footer h5{
   margin-bottom: 20px;
-}
+} */
 
 .footer_container li{
   list-style-type: none;
@@ -501,4 +501,17 @@ footer{
   color: rgb(182, 182, 210);
 }
 
+
+
+.super_container_flex table{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.table_footer td{
+  width: 100%;
+  max-width: 100px;
+
+}
 
